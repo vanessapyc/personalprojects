@@ -65,7 +65,7 @@ From PopvsVac
 
 -- Total population vs. vaccinations
 -- Showing percentage of poopulation that has recieved 1+ Covid vaccines
--- Version 1: Using Temp Table to perform calculation on Partition By
+-- Version 2: Using Temp Table to perform calculation on Partition By
 DROP Table if EXISTS #PercentVaccinated
 
 Create Table #PercentVaccinated
